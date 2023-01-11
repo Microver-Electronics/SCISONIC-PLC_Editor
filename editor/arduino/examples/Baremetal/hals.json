@@ -1,0 +1,7 @@
+{
+	"Micro BCM (SCISONIC)": {
+        "platform": "STMicroelectronics:stm32:GenF1:pnum=BLUEPILL_F103C8",
+        "define": "BOARD_STM32_F103CB",
+        "source": "MicroBCM.cpp"
+    }
+}
