@@ -2,4 +2,4 @@
 # Format :
 # Board type, FQBN, BOARD definition (optional)
 
-Micro BCM (SciSonic), STM32:stm32:GenF1:pnum=BLUEPILL_F103C8, BOARD_STM32_F103CB
+Micro BCM (SCISONIC), STM32:stm32:GenF1:pnum=BLUEPILL_F103C8, BOARD_STM32_F103CB

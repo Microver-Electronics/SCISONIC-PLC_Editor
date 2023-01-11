@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <project xmlns:ns1="http://www.plcopen.org/xml/tc6_0201" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.plcopen.org/xml/tc6_0201">
   <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2022-08-16T15:49:17"/>
-  <contentHeader name="Unnamed" modificationDateTime="2023-01-11T10:21:23">
+  <contentHeader name="Unnamed" modificationDateTime="2023-01-12T00:16:16">
     <coordinateInfo>
       <fbd>
         <scaling x="10" y="10"/>
@@ -20,7 +20,7 @@
       <pou name="Blink" pouType="program">
         <interface>
           <localVars>
-            <variable name="blink_led" address="%QX0.5">
+            <variable name="blink_led" address="%QX0.7">
               <type>
                 <BOOL/>
               </type>

@@ -9,14 +9,14 @@
 #define MBTCP_SUBNET 255,255,255,0
 #define MBTCP_SSID ""
 #define MBTCP_PWD ""
-#define BOARD_STM32_F103CB
+#define BOARD_MicroBCM
 
 
 //Arduino Libraries
 
 
 //Pin Array Sizes
-#define NUM_DISCRETE_INPUT          9
-#define NUM_ANALOG_INPUT            6
+#define NUM_DISCRETE_INPUT          0
+#define NUM_ANALOG_INPUT            5
 #define NUM_DISCRETE_OUTPUT         8
-#define NUM_ANALOG_OUTPUT           2
+#define NUM_ANALOG_OUTPUT           0

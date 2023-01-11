@@ -118,9 +118,9 @@ class EditorUpdateDialog(wx.Dialog):
         #Download revision file from GitHub
         if platform.system() == 'Darwin':
             context = ssl._create_unverified_context() #bypass SSL errors on macOS - TODO: fix it later
-            cloud_file = urllib2.urlopen('https://github.com/thiagoralves/OpenPLC_Editor/blob/master/revision?raw=true', context=context)
+            cloud_file = urllib2.urlopen('https://github.com/Microver-Electronics/SCISONIC-PLC_Editor/blob/main/revision?raw=true', context=context)
         else:
-            cloud_file = urllib2.urlopen('https://github.com/thiagoralves/OpenPLC_Editor/blob/master/revision?raw=true')
+            cloud_file = urllib2.urlopen('https://github.com/Microver-Electronics/SCISONIC-PLC_Editor/blob/main/revision?raw=true')
         
         cloud_revision = int(cloud_file.read().decode('utf-8'))
         if (cloud_revision > local_revision):

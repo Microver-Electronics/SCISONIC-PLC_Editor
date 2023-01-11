@@ -1,7 +1,7 @@
 #include "POUS.h"
 
 void BLINK_init__(BLINK *data__, BOOL retain) {
-  __INIT_LOCATED(BOOL,__QX0_5,data__->BLINK_LED,retain)
+  __INIT_LOCATED(BOOL,__QX0_7,data__->BLINK_LED,retain)
   __INIT_LOCATED_VALUE(data__->BLINK_LED,__BOOL_LITERAL(FALSE))
   TON_init__(&data__->TON0,retain);
   TOF_init__(&data__->TOF0,retain);

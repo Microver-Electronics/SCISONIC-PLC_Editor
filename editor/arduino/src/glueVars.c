@@ -36,7 +36,7 @@ IEC_UINT *int_output[MAX_ANALOG_OUTPUT];
 
 void glueVars()
 {
-    bool_output[0][5] = __QX0_5;
+    bool_output[0][7] = __QX0_7;
 
 }
 
